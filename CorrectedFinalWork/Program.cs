@@ -19,9 +19,9 @@ void ResultingArray(string[] array)
     Console.WriteLine();
 }
 Console.Write("Введите элементы массива через пробел: ");
-string[] array = Console.ReadLine().Split();
-string[] array2 = new string[array.Length];
-CreatedArray(array, array2);
+string[] array1 = Console.ReadLine().Split();
+string[] array2 = new string[array1.Length];
+CreatedArray(array1, array2);
 Console.WriteLine();
-Console.Write("Получившийся массив с элементами <= 3 символов: ");
+Console.Write("Получившийся массив с элементами <=3 символов: ");
 ResultingArray(array2);
